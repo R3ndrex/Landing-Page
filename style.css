@@ -44,6 +44,10 @@ body {
 .anchors > a:hover {
     color: #3882f6;
 }
+.sign-button:hover {
+    background-color: #2f72df;
+    color: #e5e7eb;
+}
 .hero-text > p,
 .anchors {
     color: #e5e7eb;
