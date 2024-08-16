@@ -6,10 +6,163 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
-    font-family: Roboto, sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+}
+.upper-body {
+    background-color: #1f2937;
+}
+.header {
+    padding: 16px;
+    color: white;
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+}
+.logo {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+}
+.header h1 {
+    margin: 0px;
+    font-weight: 1000;
+    color: #f9faf8;
+    font-size: 24px;
+}
+.header .logo-photo {
+    width: 32px;
+}
+
+.anchors > a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+.hero-text > p,
+.anchors {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.anchors {
+    display: flex;
+    gap: 16px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    margin: 8rem;
+    align-items: start;
+    gap: 2rem;
+}
+.hero-text {
+    width: 400px;
+}
+.hero-text > header {
+    font-size: 48px;
+    font-weight: 1000;
+    color: #f9faf8;
+}
+.sign-button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 12px 18px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
+.information {
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main-header {
+    font-size: 36px;
+    font-weight: 1000px;
+    color: #1f2937;
+    text-align: center;
+    font-weight: 1000;
+    line-height: 200px;
+}
+.container > img {
+    border: 2px solid #3882f6;
+    border-radius: 5px;
+}
+.container > p {
+    text-align: center;
+    width: 180px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.container 
+/* images container */ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote {
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    margin: 100px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content > .text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+}
+.content > .quote-author {
+    font-size: 18px;
+    font-weight: 1000;
+    align-self: flex-end;
+}
+.sign-block {
+    border-radius: 5px;
+    margin: 8rem 20rem;
+    padding: 48px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882f6;
+}
+.sign-block > .text-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.sign-block > .text-container > .sign-header {
+    color: #f9faf8;
+    margin: 0px;
+    font-size: 24px;
+    font-weight: 1000;
+}
+.sign-block > .text-container > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.sign-block > .sign-button {
+    border: solid 2px white;
+    border-radius: 5px;
+    align-self: center;
+}
+.footer {
+    background-color: #1f2937;
+    height: 100px;
+    color: #e5e7eb;
+    text-align: center;
+    line-height: 100px;
 }
