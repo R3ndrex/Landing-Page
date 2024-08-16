@@ -9,7 +9,7 @@ This program is basic landing page with header, hero, main content, footer
 
 # Screenshot
 
-    ![Site](https://imgur.com/1tZ12yu?raw=true)
+![Site](https://imgur.com/1tZ12yu?raw=true)
 
 # Sources
 
