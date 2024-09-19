@@ -16,11 +16,18 @@ body {
     background-color: #1f2937;
 }
 .header {
+    width: 100%;
     padding: 16px;
     color: white;
     display: flex;
+    position: fixed;
     flex: 1;
+    background-color: #1f2937;
     justify-content: space-around;
+}
+.header > * {
+    display: flex;
+    align-items: center;
 }
 .logo {
     display: flex;
