@@ -20,7 +20,8 @@ body {
     padding: 16px;
     color: white;
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 0;
     flex: 1;
     background-color: #1f2937;
     justify-content: space-around;
@@ -145,6 +146,7 @@ body {
     align-self: flex-end;
 }
 .sign-block {
+    min-width: 400px;
     border-radius: 5px;
     margin: 8rem 20rem;
     padding: 48px;
@@ -158,7 +160,7 @@ body {
     flex-wrap: wrap;
 }
 
-.sign-block > .text-container > .sign-header {
+.sign-block .sign-header {
     color: #f9faf8;
     margin: 0px;
     font-size: 24px;
