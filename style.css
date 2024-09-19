@@ -20,7 +20,8 @@ body {
     padding: 16px;
     color: white;
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 0;
     flex: 1;
     background-color: #1f2937;
     justify-content: space-around;
